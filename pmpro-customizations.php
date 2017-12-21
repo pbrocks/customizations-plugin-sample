@@ -10,4 +10,4 @@
 
 defined( 'ABSPATH' ) || die( 'File cannot be accessed directly' );
 
-include( 'include/scripts-styles.php' );
+require_once( 'include/scripts-styles.php' );
