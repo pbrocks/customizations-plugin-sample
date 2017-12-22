@@ -1,5 +1,5 @@
-# pmpro-customizations
-Paid Memberships Pro Customizations Plugin
+# pmpro-customizations-sample
+Paid Memberships Pro Customizations Plugin Sample
 
 Sample Customized Login Page 
 Logo (to change)

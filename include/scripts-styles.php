@@ -1,6 +1,8 @@
 <?php
 /**
  * File dedicated to enqueueing the scripts and styles. This file runs because it's included in the base plugin file. This is a separate php file that just loads the enqueue actions.
+ *
+ * Keeping files distinct according to their function is a way of maintaining sanity for developers. If there is an issue with a given file, its functions can be turned of in an instant by commenting out the line of code in the base file that includes this file in the plugin.
  */
 
 
