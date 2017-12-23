@@ -17,3 +17,8 @@ defined( 'ABSPATH' ) || die( 'File cannot be accessed directly' );
  * This line includes the file 'scripts-styles.php', which is located in the 'include' folder. If there is a problem with the code in the file, you can comment this line out by placing two forward slashes '//' in front of the line.
  */
 require_once( 'include/scripts-styles.php' );
+
+/**
+ * This line includes the file 'checkout-modal-ideadude.php', which is located in the 'include' folder. If there is a problem with the code in the file, you can comment this line out by placing two forward slashes '//' in front of the line.
+ */
+require_once( 'include/checkout-modal-ideadude.php' );
