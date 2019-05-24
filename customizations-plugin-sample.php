@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: PMPro - Customization Sample
- * Plugin URL: https://github.com/pbrocks/pmpro-customizations-sample
+ * Plugin Name: Customization Plugin Sample
+ * Plugin URL: https://github.com/pbrocks/customizations-plugin-sample
  * Author: pbrocks
  * Version: 1.1.2
  * Author URI: https://github.com/spbrocks
- * Text Domain: pmpro-customizations-sample
+ * Text Domain: customizations-plugin-sample
  */
 
 /**
