@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: Paid Memberships Pro - Customization Sample
- * Plugin URL: https://github.com/stranger-studios
- * Author: Stranger Studios
- * Version: 1.1.1
- * Author URI: https://github.com/stranger-studios
+ * Plugin Name: PMPro - Customization Sample
+ * Plugin URL: https://github.com/pbrocks/pmpro-customizations-sample
+ * Author: pbrocks
+ * Version: 1.1.2
+ * Author URI: https://github.com/spbrocks
  * Text Domain: pmpro-customizations-sample
  */
 
@@ -14,6 +14,8 @@
 defined( 'ABSPATH' ) || die( 'File cannot be accessed directly' );
 
 /**
- * This line includes the file 'scripts-styles.php', which is located in the 'include' folder. If there is a problem with the code in the file, you can comment this line out by placing two forward slashes '//' in front of the line.
+ * This line includes all php files located in the /inc folder. If there is a problem with the code in the file, you can comment this line out by placing two forward slashes '//' in front of the require statement which turns off all code in that directory.
  */
-require_once( 'include/scripts-styles.php' );
+foreach ( glob( __DIR__ . '/inc/*.php' ) as $filename ) {
+	require $filename;
+}
