@@ -43,7 +43,7 @@ function initialize_trigger_ajax_scripts() {
 			'trigger_ajaxurl' => admin_url( 'admin-ajax.php' ),
 			'random_number'   => time(),
 			'trigger_nonce'   => wp_create_nonce( 'trigger-nonce' ),
-			'explanation_one' => 'Set up anything from the PHP side here. Add the variable to the JS file.',
+			'explanation_one' => 'Set up anything from the PHP side here in this function (' . __FUNCTION__ . '). Add the variable to the JS file.',
 		)
 	);
 	wp_enqueue_script( 'trigger-ajax' );
@@ -51,7 +51,7 @@ function initialize_trigger_ajax_scripts() {
 
 function run_trigger_ajax_function() {
 	$return_data                      = $_POST;
-	$return_data['explanation_three'] = 'You can also add data here if you need javascript to help you calculate first.';
+	$return_data['explanation_three'] = 'You can also add data here in this function (' . __FUNCTION__ . ') if you need javascript to help you calculate first.';
 	echo '<pre>$return_data ';
 	print_r( $return_data );
 	echo '</pre>';
